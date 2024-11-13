@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OpenSpur: associate and create with minimal friction</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <!-- Include Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <!-- Main StyleSheet -->
+    <link rel="stylesheet" href="style.css" />	
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css" />	
+    <script>
+        // Attach the scroll event listener to the window object
+        /*
+        document.addEventListener('scroll', 
+            function(e) { 
+                const fadeStart = window.innerHeight; // Start fading when element's top is at the bottom of the viewport
+                const fadeEnd = 0;  
+                
+                const scrollTop = window.scrollY || document.body.scrollTop; 
+                //console.log(scrollTop)
+
+                const element = document.getElementById('ideaSection');
+                const rect = element.getBoundingClientRect();
+                const elementY = rect.top + window.scrollY;
+                console.log(elementY)
+                let opacity = elementY / 1000;
+                document.getElementById('backgroundVideo').style.opacity = opacity;
+        }, true);
+        */
+        </script>
+</head>
+<body>
+    <!-- Sections -->
+    <section class="section section1">
+        <video autoplay muted loop id="backgroundVideoSection1" class="background-video">
+            <source src="./video/askReceive.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <header class="header-area">
+            <div class="container">
+              <div class="row g-0 align-items-center">
+                <div class="col-lg-7">
+                  <div class="logo">
+                    <!-- LOGO-HERE -->
+                    <a href="#"><img src="images/logo.svg" alt=""></a>
+                    <!-- HAMBURGER HERE -->
+                    <div id="nav-icon3" class="hamburger">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </div>
+                    <!-- NAV-ITEM HERE -->
+                    <ul class="nav-items">
+                      <li><a href="#">Founders</a></li>
+                      <li><a href="#">Problem-solvers</a></li>
+                      <li><a href="#">Investors</a></li>
+                    </ul>
+                  </div>
+                </div>	
+                <div class="col-lg-5">
+                  <div class="header-btn">
+                    <ul>
+                      <li><a href="#"></a></li>
+                      <li><a href="#">Find. Contribute. Get paid!</a></li>
+                    </ul>
+                  </div>
+                </div>						
+              </div>					
+            </div>
+          </header>	
+          
+          <div class="sidebar-menu">
+            <ul class="nav-items">
+              <li><a href="#">Founders</a></li>
+              <li><a href="#">Problem-solvers</a></li>
+              <li><a href="#">Investors</a></li>
+              <li><a href="#">User manual</a></li>
+              <li><a href="#" class="sidemenu-btn">Find. Contribute. Get paid!</a></li>
+            </ul>
+          </div>
+          <!--MOBILE-MENU-END-->
+        
+          <!--HERO-AREA-START-->
+          <section class="hero-area">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="hero-content">
+                    <h1>Planetary</h1>
+                    <h1>Scale</h1>
+                    <h1>Innovation</h1>
+                    <p>The trust layer for heroes building things that matter.</p>
+                    <ul>
+                      <li><a href="#">Join now</a></li>
+                      <li><a href="#">Read litepaper</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+    </section>
+
+
+
+    
+    <section class="section section2" id="ideaSection"  onscroll="myFunction()">
+        <section class="find-coontribute-area">
+            <div class="container">
+              <div class="fc-header">
+                <h3 style="text-align: center;">THE PROBLEM</h3>
+                <h2>Moving from idea to reality is broken.</h2>
+                
+                  
+                <div class="row">
+                    <div class="col-md-4">
+                      <h4>1. Finding the Right People at the Right Time</h4>
+                      <p>Finding the necessary talent when you need it is a significant challenge, delaying progress and impacting project quality.</p>
+                    </div>
+                    <div class="col-md-4">
+                      <h4>2. Securing Expensive Funding</h4>
+                      <p>Funding often comes with high costs and complexities, making it difficult to finance your vision effectively.</p>
+                    </div>
+                    <div class="col-md-4">
+                      <h4>3. Logistical Overhead Diverts You from Core Vision</h4>
+                      <p>Administrative tasks and operational logistics consume valuable time, pulling you away from focusing on what you do best.</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <h4>4. Opaque Market: Unclear Customer Demand</h4>
+                      <p>Without clear insights into customer needs, you risk developing solutions that don't resonate with your target audience.</p>
+                    </div>
+                    <div class="col-md-4">
+                      <h4>5. Opaque Market: Unclear Competitors</h4>
+                      <p>Lack of transparency about what others are doing forces you to invest heavily in market analysis, often without actionable results.</p>
+                    </div>
+                    <div class="col-md-4">
+                      <h4>6. Hindered Innovation Due to These Obstacles</h4>
+                      <p>These combined challenges prevent you from concentrating on innovation and bringing your unique ideas to life.</p>
+                    </div>
+                  </div>
+                
+      
+  
+              </div>
+   
+            
+        
+            </div>
+          </section>
+    </section>
+    <section class="section section3">
+        <section class="find-coontribute-area">
+            <div class="container">
+           
+              <div class="fc-header">
+                <h3 style="text-align: center;">THE SOLUTION</h3>
+                <h2>A fair remuneration protocol.</h2>
+                
+                <div class="community-blog-content ">
+                  
+                <div class="community-blog-content ">
+                  <h5>Fair</h5>
+                  <h6>Some challenges are too big for one individual.
+                    Even for one team or one organization.
+                    Together, we can solve bigger problems.
+                    But we can never come together without the trust layer and the proper incentives for everyone involved.
+                    </h6>
+                </div>
+  
+                
+                <div class="community-blog-content ">
+                  <h5>Transparent</h5>
+                  <h6>Complete visibility into all work produced and all money spent.
+                    Complete visibility into all work produced and all resources spent helps us make better decisions. Imagine knowing how much concrete costs - for all buildings currently being built. OpenSpur enables you to capture the full value of a cost-effective solution - while filling in the expertise gaps you have with community contributions, all fully funded by our investors.
+                    </h6>
+                </div>
+  
+                  <h5>Borderless and permisionless</h5>
+                  <h6>Innovation emerges when existing ideas are combined in new ways. The broader the scale and the more diverse the professionals involved, the more likely we are to develop innovative solutions to today's pressing problems. OpenSpur doesn't care where the knowledge or work comes from—as long as the job gets done. By being borderless and permissionless, we tap into a global pool of talent and ideas, accelerating progress.
+                    </h6>
+                </div>
+  
+              </div>
+   
+            
+        
+            </div>
+          </section>
+    </section>
+
+    <section class="section get-started-area">
+        <div class="container">
+            <div class="row align-items-center">
+                
+                <div class="col-lg-6">
+                    <div class="get-started-img">
+                        <video class="responsiveVideo" autoplay muted loop>
+                            <source src="video/askReceive.mp4" type="video/mp4">
+                          </video>
+                    </div>
+                </div>
+    
+                
+                <div class="col-lg-6">
+                    <div class="get-started-content">
+                        <h3>Stuck? Let others fill in the blanks.</h3>
+                        <p>You record your work and ideas. We protect it and make sure you get your fair share. Next, delegate. Levrage our database of one billion professionals to call on others to build further. Nature delegates heavily, and so do we.</p>
+                        <a href="#">Get started</a>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+
+<section class="get-started-area">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="get-started-img">
+                    <img src="images/get-started-img1.png" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="get-started-content">
+                    <h3>Everytime a sale is <br> made, you get your <br> share.</h3>
+                    <p>We've turned code into electricity - a commodity people pay for to use. Everytime money flows in, it immediately flows out to contributors and investors.</p>
+                    <a href="#">Get started</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    
+        <section class="section find-coontribute-area">
+            <div class="container">
+           
+              <div class="fc-header">
+                
+                        <div class="community-blog-header">
+                            <h6>Current challenges require synchronized effort over multidisciplinary teams</h6>
+                            <div class="num"></div>
+                        </div>
+                        <div class="owl-carousel">
+                            <div class="slide">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-6 order-2 order-lg-1">
+                                        <div class="community-blog-img">
+                                            <video class="responsiveVideo" autoplay muted loop>
+                                                <source src="video/askReceive.mp4" type="video/mp4">
+                                              </video>
+                                        </div>	
+                                    </div>
+                                    <div class="col-lg-6 order-1">
+                                        <div class="community-blog-content ">
+                                            <h5>The lightbulb needed 3 inventors to make it a reality. <br>The internet combined the life-long work of 9 people. <br>The smartphone leveraged hundreds of concepts.
+                                            <br>Let’s make lightbulb moments the norm!</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+            
+                   
+                        </div>
+              </div>
+   
+            
+        
+            </div>
+          </section>
+    
+    <section class="section5">
+        <section class="cta-area">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="cta-content">
+                    <h2>Join a borderless <br>community of builders. </h2>
+                    <p>Some challenges are too big for one individual, one <br> team or even one organization. Together, we can solve bigger problems.</p>
+                    <a href="#">Start your journey</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <footer>
+              <div class="container">
+                <div class="row align-items-center">
+                  <div class="col-lg-2">
+                    <div class="footer-logo">
+                      <a href="#"><img src="images//logo.svg" alt=""></a>
+                    </div>
+                  </div>
+                  <div class="col-lg-7">
+                    <div class="footer-item">
+                      <ul>
+                        <li><a href="#">Read the litepaper</a></li>
+                        <li><a href="#">Start a digital company</a></li>
+                        <li><a href="#">Find problems to solve</a></li>
+                        <li><a href="#">Invest</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="foooter-link">
+                      <ul>
+                        <li><a href="#"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-github" aria-hidden="true"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="footer-bottom">
+                <p>Emotion preceds thought. Do everything with love.</p>
+              </div>
+            </footer>
+          </section>
+    </section>
+
+
+
+</body>
+</html>
